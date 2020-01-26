@@ -25,7 +25,7 @@ class Song
   
   
   extend Memorable::ClassMethods
- # include FancyDance::InstanceMethods
+ # include ::InstanceMethods
 
   
 end
