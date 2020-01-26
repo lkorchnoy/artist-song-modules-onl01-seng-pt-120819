@@ -1,5 +1,5 @@
 module Memorable
-  
+module ClassMethods  
   def metadata
    self.all.clear
   end
