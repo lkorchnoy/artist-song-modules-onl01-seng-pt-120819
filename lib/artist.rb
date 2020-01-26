@@ -33,7 +33,7 @@ class Artist
   
   
   extend Memorable::ClassMethods
-  include FancyDance::InstanceMethods
+  include ::InstanceMethods
 
   
 end
