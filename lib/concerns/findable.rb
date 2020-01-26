@@ -1,0 +1,3 @@
+class Findable
+  def 
+end
