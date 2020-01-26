@@ -1,6 +1,6 @@
 module Memorable
 module ClassMethods  
-  def metadata
+  def 
    self.all.clear
   end
 
