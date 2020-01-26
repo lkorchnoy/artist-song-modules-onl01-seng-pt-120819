@@ -1,3 +1,4 @@
 class Findable
-  def 
+  def Findable.find_by_name
+  end
 end
