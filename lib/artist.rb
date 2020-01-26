@@ -11,7 +11,7 @@ class Artist
     @songs = []
   end
 
-  def self.find_by_name(name)
+ def self.find_by_name(name)
     @@artists.detect{|a| a.name == name}
   end
 
@@ -19,13 +19,7 @@ class Artist
     @@artists
   end
 
-  def self.reset_all
-    self.all.clear
-  end
-
-  def self.count
-    self.all.count
-  end
+  
 
   def add_song(song)
     @songs << song
@@ -39,4 +33,9 @@ class Artist
   def to_param
     name.downcase.gsub(' ', '-')
   end
+  class Dancer
+  extend FancyDance::ClassMethods
+  include FancyDance::InstanceMethods
+end
+  
 end
