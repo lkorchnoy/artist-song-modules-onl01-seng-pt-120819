@@ -1,5 +1,7 @@
 module Paramable
+  
   def metadata
-    
-end
+  name.downcase.gsub(' ', '-')
+  end
+  
 end
