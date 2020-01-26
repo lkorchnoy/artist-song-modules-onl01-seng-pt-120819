@@ -33,9 +33,9 @@ class Artist
   def to_param
     name.downcase.gsub(' ', '-')
   end
-  class Dancer
-  extend FancyDance::ClassMethods
-  include FancyDance::InstanceMethods
-end
+  
+  extend Memorable::ClassMethods
+  #include FancyDance::InstanceMethods
+
   
 end
