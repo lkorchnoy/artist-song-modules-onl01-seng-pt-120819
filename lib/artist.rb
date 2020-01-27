@@ -27,6 +27,7 @@ class Artist
   
   
   extend Memorable::ClassMethods
+  extend 
   include Memorable::InstanceMethods
   include Paramable::InstanceMethods
 
